@@ -1,0 +1,5 @@
+{{ define "main" }}
+  <h3>list.reveal.html</h3>
+  {{ partial "slides" (slice .Page) }}
+  {{ partial "slides" (where .Pages "Kind" "page") }}
+{{ end }}

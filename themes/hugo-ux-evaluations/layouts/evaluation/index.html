@@ -1,0 +1,5 @@
+{{ define "main" }}
+  <h3>index.reveal.html</h3>
+  {{ partial "reveal-hugo/slides" (slice .Page) }}
+  {{ partial "reveal-hugo/slides" (where .Site.RegularPages "Type" "home") }}
+{{ end }}

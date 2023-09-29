@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="hello">
+    <div class="creator">
+        <img src="/logo.svg">
+        <p>{{ site.Params.description }}</p>
+        <p>
+            <a class="button" href="{{ site.Params.website }}">
+                Learn more
+            </a>
+        </p>
+    </div>
+    <div class="content">
+        <h1>{{ .Title }}</h1>
+        <div>{{ .Content }}</div>
+        <p><a class="button" href="{{ site.Params.contact }}">
+            Contact Us
+        </a></p>
+    </div>
+</div>
+{{ end }}

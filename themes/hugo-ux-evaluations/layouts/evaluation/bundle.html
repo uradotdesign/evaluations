@@ -1,0 +1,5 @@
+{{ define "main" }}
+  <h3>bundle.reveal.html</h3>
+  {{ partial "slides" (slice .Page) }}
+  {{ partial "slides" (.Resources.ByType "page") }}
+{{ end }}

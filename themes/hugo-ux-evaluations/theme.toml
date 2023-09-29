@@ -1,0 +1,19 @@
+# Template for a Hugo theme
+name = "UX Evaluations"
+license = "MIT"
+licenselink = "https://github.com/uradotdesign/hugo-ux-evaluations/blob/master/LICENSE"
+description = ""
+homepage = "http://evaluations.ura.design/"
+tags = []
+features = []
+min_version = "0.110.0"
+
+[author]
+  name = "Private Maker"
+  homepage = "https://github.com/privatemaker"
+
+# If porting an existing theme
+[original]
+  name = ""
+  homepage = ""
+  repo = ""
