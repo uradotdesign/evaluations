@@ -6,7 +6,7 @@ permalink: "/"
 
 The following are UX evaluations performed by Ura Design team and collaborators.
 
-- [Orangic Maps](/organic-maps-2023), 2023
+- [Organic Maps](/evaluations/organic-maps-2023), 2023
 
 ## About
 

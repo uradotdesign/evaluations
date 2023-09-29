@@ -12,6 +12,8 @@ ignoreFiles:
   - ".*swp"
   - ".*swo"
 
+relativeURLs: true
+
 author:
   name: Ura Design
 
