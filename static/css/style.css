@@ -1,0 +1,39 @@
+/* Custom Variables */
+:root {
+  --light: #ffffff;
+  --dark: #000000;
+  --accent: #1f78d1;
+  --accent-contrast: #ffffff;
+  --background: #ffffff;
+  --text: #000000;
+  --links: #1f78d1;
+  --links-hover: #1367bb;
+  --text-accent: #1f78d1;
+  --text-accent-transform: uppercase;
+
+  /* from hugo-reveal */
+  --background-color: #ffffff;
+  --main-font: 'Roboto', 'Helvetica', sans-serif;
+  --main-font-size: 18px;
+  --main-color: #000000;
+  --block-margin: 2rem;
+  --heading-margin: 0 0 2rem 0;
+  --heading-font: 'Roboto', 'Helvetica', sans-serif;
+  --heading-color: #ffffff;
+  --heading-line-height: 1;
+  --heading-letter-spacing: normal;
+  --heading-text-transform: capitalize;
+  --heading-text-shadow: none;
+  --heading-font-weight: 400;
+  --heading1-text-shadow: none;
+  --heading1-size: 6em;
+  --heading2-size: 4em;
+  --heading3-size: 2.5em;
+  --heading4-size: 1.25em;
+  --code-font: monospace;
+  --link-color: #1f78d1;
+  --link-color-dark: #1367bb;
+  --link-color-hover: #1367bb;
+  --selection-background-color: #333333;
+  --selection-color: #ffffff;
+}

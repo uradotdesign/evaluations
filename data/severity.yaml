@@ -1,0 +1,19 @@
+- score: 0
+  label: "Not an issue"
+  explain: "I don't agree that this is a usability problem at all"
+
+- score: 1
+  label: "Cosmetic problem only"
+  explain: "need not be fixed unless extra time is available on project"
+
+- score: 2 
+  label: "Minor usability problem"
+  explain: "Fixing this should be given low priority"
+
+- score: 3
+  label: "Major usability problem"
+  explain: "Important to fix, so should be given high priority"
+
+- score: 4
+  label: "Usability catastrophe"
+  explain: "Imperative to fix this before product can be released"

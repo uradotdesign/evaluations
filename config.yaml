@@ -1,0 +1,65 @@
+baseURL: 'https://evaluations.ura.design/'
+languageCode: en-us
+title: UX Evaluations rendered in slideshow formmat
+disableKinds:
+  - sitemap
+  - RSS
+theme: hugo-ux-evaluations
+#themesDir: ../themes/
+
+ignoreFiles:
+  - ".git"
+  - ".*swp"
+  - ".*swo"
+
+author:
+  name: Ura Design
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    codeFences: false
+    style: tango
+
+outputFormats:
+  Reveal:
+    baseName: index
+    mediaType: text/html
+    isHTML: true
+
+params:
+  description: "Ura is the design studio dedicated to making open source software more usable, accessible and competitive."
+  website: "https://ura.design"
+  contact: "https://ura.design/contact"
+  debug: false
+  templates:
+    light:
+      background: "#dddddd"
+      color: "#000000"
+    dark:
+      background: "#111111"
+      color: "#ffffff"
+
+  reveal:
+    history: true
+    slide_number: false
+    transition: "slide"
+    transition_speed: "fast"
+    center: true
+    disableLayout: false
+    controls: false
+    theme: "ux-evaluation"
+    templates:
+      blue:
+        background: "#0011DD"
+        color: "#ffffff"
+      light:
+        background: "#dddddd"
+        color: "#000000"
+      dark:
+        background: "#111111"
+        color: "#ffffff"
+
+module: {}
