@@ -139,6 +139,7 @@ body {
 
 .reveal h1 {
   font-size: var(--heading1-size);
+  text-shadow: var(--heading1-text-shadow);
 }
 
 .reveal h2 {
@@ -151,10 +152,6 @@ body {
 
 .reveal h4 {
   font-size: var(--heading4-size);
-}
-
-.reveal h1 {
-  text-shadow: var(--heading1-text-shadow);
 }
 
 

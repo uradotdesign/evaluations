@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="hello">
+    {{ partial "creator.html" }}
+    <div class="content">
+        <h2>{{ .Title }}</h2>
+        <p>{{ .Site.Params.evaluations }}</p>
+        {{ $evaluations := where .Site.Pages "Type" "evaluation" }}
+	      <ul class="navigation">
+            {{ range $key, $evaluation := $evaluations }}
+            <li>
+                <a class="button" href="{{ $evaluation.Permalink }}">
+                    {{ $evaluation.Title }} <span>/ {{ $evaluation.Date.Format "January, 2006" }}</span>
+                </a>
+            </li>
+            {{ end }}
+	      </ul>
+        {{ .Content }} 
+    </div>
+</div>
+{{ end }}

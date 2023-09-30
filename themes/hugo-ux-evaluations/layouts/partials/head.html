@@ -8,8 +8,8 @@
 
 <!-- Theme & CSS -->
 {{- $highlight_location := $.Param "reveal_hugo.highlight_cdn" | default "highlight-js" -}}
-<link rel="stylesheet" href="{{ printf "/css/reset.css" | relURL }}">
-<link rel="stylesheet" href="{{ printf "/css/reveal.css" | relURL }}">
-<link rel="stylesheet" href="{{ printf "/css/fonts.css" | relURL }}">
-<link rel="stylesheet" href="{{ printf "/css/style.css" | relURL }}" data-type="dist-theme" id="them">
-<link rel="stylesheet" href="{{ printf "/css/ux-evaluation.css" | relURL }}">
+<link rel="stylesheet" href="{{ printf "/css/reset.css" | absURL }}">
+<link rel="stylesheet" href="{{ printf "/css/reveal.css" | absURL }}">
+<link rel="stylesheet" href="{{ printf "/css/fonts.css" | absURL }}">
+<link rel="stylesheet" href="{{ printf "/css/style.css" | absURL }}" data-type="dist-theme" id="them">
+<link rel="stylesheet" href="{{ printf "/css/ux-evaluation.css" | absURL }}">
