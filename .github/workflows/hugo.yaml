@@ -48,8 +48,7 @@ jobs:
         run: |
           hugo \
             --gc \
-            --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"          
+            --baseURL "https://uradotdesign.github.io/evaluations/"          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:

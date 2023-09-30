@@ -1,8 +1,8 @@
 <!-- polyfill needed for IE11 and below -->
-<script type="text/javascript" src={{ "/js/object-assign.js" | absURL }}></script>
+<script type="text/javascript" src={{ "js/object-assign.js" | absURL }}></script>
 <!-- Printing and PDF exports -->
 
-<script src="{{ printf "/js/reveal.js" | absURL }}"></script>
+<script src="{{ printf "js/reveal.js" | absURL }}"></script>
 
 <!-- load default and user plugins -->
 {{- $plugins := partial "internal/plugins" . -}}
@@ -47,7 +47,7 @@
 </script>
 
 <!-- Slideshow Settings -->
-<script type="text/javascript" src="{{ "/js/settings.js" | absURL }}"></script>
+<script type="text/javascript" src="{{ "js/settings.js" | absURL }}"></script>
 
 {{ $hasMermaid := false }}
 {{ $hasMath := false }}
@@ -61,7 +61,7 @@
 {{ end }}
 
 {{ if $hasMermaid }}
-<script type="text/javascript" src="{{ "/js/mermaid.min.js" | absURL }}"></script>
+<script type="text/javascript" src="{{ "js/mermaid.min.js" | absURL }}"></script>
 <script type="text/javascript">
   mermaid.initialize({startOnLoad: false});
   let render = (event) => {
@@ -96,5 +96,5 @@
     }
   };
 </script>
-<script type="text/javascript" id="MathJax-script" async src="{{ "/js/tex-svg.js" | absURL }}"></script>
+<script type="text/javascript" id="MathJax-script" async src="{{ "js/tex-svg.js" | absURL }}"></script>
 {{ end }}
