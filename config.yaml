@@ -1,4 +1,4 @@
-baseURL: 'https://uradotdesign.github.io/evaluations/'
+baseURL: "https://evaluations.ura.design/"
 languageCode: en-us
 title: UX Evaluations rendered in slideshow formmat
 disableKinds:
