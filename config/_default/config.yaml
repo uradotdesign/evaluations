@@ -40,3 +40,8 @@ module:
     - path: "github.com/uradotdesign/hugo-ux-evaluations"
   imports:
     - path: "github.com/privatemaker/headless-cms"
+
+caches:
+  getresource:
+    dir: :resourceDir
+    maxAge: -1
