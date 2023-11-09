@@ -1,0 +1,42 @@
+baseURL: "https://evaluations.ura.design/"
+languageCode: "en-us"
+title: "UX Evaluations rendered in slideshow format"
+disableKinds:
+  - "sitemap"
+theme: "github.com/uradotdesign/hugo-ux-evaluations"
+
+ignoreFiles:
+  - ".git"
+  - ".*swp"
+  - ".*swo"
+
+relativeURLs: true
+
+author:
+  name: "Ura Design"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    codeFences: false
+    style: "tango"
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "HeadlessCMSConfig"
+
+outputFormats:
+  Reveal:
+    baseName: "index"
+    mediaType: "text/html"
+    isHTML: true
+
+module:
+  imports:
+    - path: "github.com/uradotdesign/hugo-ux-evaluations"
+  imports:
+    - path: "github.com/privatemaker/headless-cms"

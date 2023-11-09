@@ -1,0 +1,3 @@
+baseURL: "http://localhost:1313/"
+title: "UX Evaluations Development"
+cleanDestinationDir: true

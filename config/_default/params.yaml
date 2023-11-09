@@ -1,0 +1,34 @@
+description: "Ura is the design studio dedicated to making open source software more usable, accessible and competitive."
+evaluations: "The following are UX evaluations performed by Ura Design team and collaborators."
+website: "https://ura.design"
+contact: "https://ura.design/contact"
+debug: false
+templates:
+  light:
+    background: "#dddddd"
+    color: "#000000"
+  dark:
+    background: "#111111"
+    color: "#ffffff"
+
+reveal:
+  history: true
+  slide_number: false
+  transition: "slide"
+  transition_speed: "fast"
+  center: true
+  disableLayout: false
+  controls: false
+  theme: "ux-evaluation"
+  templates:
+    blue:
+      background: "#0011DD"
+      color: "#ffffff"
+    light:
+      background: "#dddddd"
+      color: "#000000"
+    dark:
+      background: "#111111"
+      color: "#ffffff"
+
+
