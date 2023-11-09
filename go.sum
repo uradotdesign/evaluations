@@ -1,2 +1,6 @@
 github.com/privatemaker/headless-cms v0.0.0-20231108120115-eaae15fd819b h1:4+wuaaDbfaY/YxUTkb/o5OInKLd3AOFiZLG58ap5a+4=
 github.com/privatemaker/headless-cms v0.0.0-20231108120115-eaae15fd819b/go.mod h1:ZcHkPZzL9yCsBdmn9FpoIW35snTyj1bDOfqT0ZFJoZE=
+github.com/uradotdesign/hugo-ux-evaluations v0.0.0-20231108153455-595d8354240f h1:U9+wguRcS+WBe2zcCmg3muRlljRaXp1hvyzszS/rqZg=
+github.com/uradotdesign/hugo-ux-evaluations v0.0.0-20231108153455-595d8354240f/go.mod h1:93bt/QngDgGMUSJ/g9COAfdfY5RxXft9IOeNhGegdso=
+github.com/uradotdesign/hugo-ux-evaluations v0.1.0 h1:AyOOvB1hQ8C8Q3MOYUPhftiwJibjNwkdO2s1FE9IUK0=
+github.com/uradotdesign/hugo-ux-evaluations v0.1.0/go.mod h1:93bt/QngDgGMUSJ/g9COAfdfY5RxXft9IOeNhGegdso=
