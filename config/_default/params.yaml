@@ -31,4 +31,75 @@ reveal:
       background: "#111111"
       color: "#ffffff"
 
+headless_cms:
+  engine: "decap"
+  site_url: "https://evaluations.ura.design/"
+  display_url: "https://evaluations.ura.design/"
+  logo_url: "https://evaluations.ura.design/logo.svg"
+  media_folder: "static/uploads"
+  public_folder: "/uploads"
+  backend:
+    name: "github"
+    repo: "uradotdesign/evaluations"
+  branch: "main"
+  squash_merges: false
+  collections:
+    evaluation:
+      name: "evaluations"
+      label: "Evaluations"
+      folder: "content"
+      create: true
+      widget: "list"
+      create: true
+      editor:
+        preview: true
+      fields:
+        - label: "Title"
+          name: "title"
+          widget: "string"
+        - label: "Publish Date"
+          name: "date"
+          widget: "datetime"
+    
+        - label: "Project Website"
+          name: "website"
+          widget: "string"
 
+        - label: "Author"
+          name: "author"
+          widget: "string"
+          
+        - label: "Author URL"
+          name: "author_url"
+          widget: "string"
+          
+        - label: "Author Contact"
+          name: "author_contact"
+          widget: "string"
+          
+        - label: "Devices"
+          name: "devices"
+          widget: "list"
+          
+        - label: "Environments"
+          name: "environments"
+          widget: "list"
+          
+        - label: "Focus Areas"
+          name: "focus_areas"
+          widget: "list"
+          
+        - label: "Goals"
+          name: "goals"
+          widget: "string"
+          
+        - label: "Findings"
+          name: "findings"
+          widget: "markdown"
+          
+        - label: "Closing"
+          name: "closing"
+          widget: "markdown"
+
+      nested:
+        depth: 1000
